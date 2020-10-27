@@ -1,0 +1,46 @@
+//---------------------Colors variable---------------------
+//----------------------------------------------------------
+$primary-color-main: #2196f3;
+$primary-color-dark: #1769aa;
+$primary-color-light: #4dabf5;
+
+$secondary-color-main: #f50057;
+$secondary-color-dark: #ab003c;
+$secondary-color-light: #f73378;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-yellow-main: #ffd74c;
+$color-yellow-dark: #ffcd1f;
+$color-yellow-light: #ffe179;
+
+$color-error-main: #ea2027;
+$color-info-main: #2998ff;
+$color-success-main: #27ae60;
+$color-warning-main: #ffcd1f;
+
+$primary-font-color: #fefefe;
+$secondary-font-color: #171717;
+
+// FONT VARIABLES
+$primary-font: MyFont, sans-serif;
+$secondary-font: "Josefin Sans", sans-serif;
+
+$primary-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+$secondary-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+
+$primay-line-color: blue;
+$secondary-line-color: blue;
+
+$primary-rounded: 4px;
+$secondary-rounded: 5px;
+
+$font-size-default: 16px;
+
+//----------------------------------------------------------
+//----------------------------------------------------------
+
+$grid-width: 144rem;
+$gutter-horizontal: 1rem;
+$ruler: 8px;

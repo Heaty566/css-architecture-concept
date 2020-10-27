@@ -1,0 +1,43 @@
+@mixin BreakPoint($deviceType) {
+        //micro 480px
+        @if $deviceType == xs {
+                @media only screen and (max-width: 48rem) {
+                        @content;
+                }
+        }
+
+        //small 576px
+        @if $deviceType == sm {
+                @media only screen and (max-width: 57.6rem) {
+                        @content;
+                }
+        }
+
+        //medium 768px
+        @if $deviceType == md {
+                @media only screen and (max-width: 76.8rem) {
+                        @content;
+                }
+        }
+
+        //large 992px
+        @if $deviceType == lg {
+                @media only screen and (min-width: 99.2rem) {
+                        @content;
+                }
+        }
+
+        //extra large 1200px
+        @if $deviceType == xl {
+                @media only screen and (min-width: 120rem) {
+                        @content;
+                }
+        }
+
+        //extra extra large 1600px
+        @if $deviceType == xxl {
+                @media only screen and (min-width: 160rem) {
+                        @content;
+                }
+        }
+}

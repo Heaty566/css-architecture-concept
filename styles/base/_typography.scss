@@ -1,0 +1,12 @@
+//----------------custom local font------------------------
+@font-face {
+        font-family: MyFont;
+        src: url("../fonts/SF-Pro-Display-Regular.otf");
+}
+
+.text-upper {
+        text-transform: uppercase;
+}
+.text-capital {
+        text-transform: capitalize;
+}

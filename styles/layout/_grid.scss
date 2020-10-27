@@ -1,0 +1,60 @@
+.row {
+        max-width: $grid-width;
+        display: flex;
+
+        .col-1-of-2 {
+                flex: 0 0 50%;
+                max-width: 50%;
+        }
+
+        .col-1-of-3 {
+                flex: 0 0 33.3333333%;
+                max-width: 33.3333333%;
+        }
+
+        .col-1-of-4 {
+                flex: 0 0 25%;
+                max-width: 25%;
+        }
+
+        .col-1-of-8 {
+                flex: 0 0 12.5%;
+                max-width: 12.5%;
+        }
+
+        .col-1-of-12 {
+                flex: 0 0 8.333%;
+                max-width: 8.333%;
+        }
+
+        &.h-gutter {
+                &-1 {
+                        [class^="col-"]:first-child {
+                                padding-right: calc(#{$gutter-horizontal} / 2);
+                        }
+                        [class^="col-"]:last-child {
+                                padding-left: calc(#{$gutter-horizontal} / 2);
+                        }
+                        [class^="col-"]:not(:first-child):not(:last-child) {
+                                padding: 0 calc(#{$gutter-horizontal} / 2);
+                        }
+                }
+                &-2 {
+                        [class^="col-"]:first-child {
+                                padding-right: $gutter-horizontal;
+                        }
+                        [class^="col-"]:last-child {
+                                padding-left: $gutter-horizontal;
+                        }
+                        [class^="col-"]:not(:first-child):not(:last-child) {
+                                padding: 0 $gutter-horizontal;
+                        }
+                }
+        }
+}
+
+.ttt {
+        height: 50px;
+        width: 100%;
+        background-color: red;
+}
