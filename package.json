@@ -1,11 +1,19 @@
 {
   "name": "new-folder",
   "version": "1.0.0",
-  "description": "",
+  "description": "**SMACSS** which stands for Scalable and Modular Architecture for CSS is a set of guidelines to categorize your CSS rulesets to make the CSS codebase scalable and modular. It is not a technology or utility, it’s just a set of some golden rules or you can say guidelines to write your CSS.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heaty566/Scss-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Heaty566/Scss-kit/issues"
+  },
+  "homepage": "https://github.com/Heaty566/Scss-kit#readme"
 }

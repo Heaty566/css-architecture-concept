@@ -1,19 +1,20 @@
 //---------------------Colors variable---------------------
 //----------------------------------------------------------
-$primary-color-main: #2196f3;
-$primary-color-dark: #1769aa;
-$primary-color-light: #4dabf5;
+// 500 - default color,  400 - lighter of default color, 600 darker of default color
+$color-primary-400: #4dabf5;
+$color-primary-500: #2196f3;
+$color-primary-600: #1769aa;
 
-$secondary-color-main: #f50057;
-$secondary-color-dark: #ab003c;
-$secondary-color-light: #f73378;
+$color-secondary-400: #f73378;
+$color-secondary-500: #f50057;
+$color-secondary-600: #ab003c;
 
-$color-tertiary-light: #2998ff;
-$color-tertiary-dark: #5643fa;
+$color-tertiary-500: #2998ff;
+$color-tertiary-600: #5643fa;
 
-$color-yellow-main: #ffd74c;
-$color-yellow-dark: #ffcd1f;
-$color-yellow-light: #ffe179;
+$color-yellow-400: #ffe179;
+$color-yellow-500: #ffd74c;
+$color-yellow-600: #ffcd1f;
 
 $color-error-main: #ea2027;
 $color-info-main: #2998ff;
@@ -24,23 +25,19 @@ $primary-font-color: #fefefe;
 $secondary-font-color: #171717;
 
 // FONT VARIABLES
-$primary-font: MyFont, sans-serif;
+$primary-font: "SF-Pro", sans-serif;
 $secondary-font: "Josefin Sans", sans-serif;
 
-$primary-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
-$secondary-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+//utils variable lg > md > sm > xs
+$shadow-lg: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+$shadow-md: 0 2rem 5rem rgba(0, 0, 0, 0.06);
 
-$primay-line-color: blue;
-$secondary-line-color: blue;
-
-$primary-rounded: 4px;
-$secondary-rounded: 5px;
-
-$font-size-default: 16px;
+$secondary-lg: 5px;
+$rounded-md: 4px;
 
 //----------------------------------------------------------
 //----------------------------------------------------------
-
+//--------------------- option variable --------------------
 $grid-width: 144rem;
 $gutter-horizontal: 1rem;
 $ruler: 8px;

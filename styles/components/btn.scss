@@ -1,0 +1,13 @@
+.btn {
+        color: blue;
+        outline: none;
+        border: none;
+        border-radius: 2px;
+
+        &-lg {
+                padding: 8px 16px;
+        }
+        &-sm {
+                padding: 4px 8px;
+        }
+}

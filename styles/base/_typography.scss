@@ -1,7 +1,30 @@
-//----------------custom local font------------------------
+//import local style for custom font-family
 @font-face {
-        font-family: MyFont;
-        src: url("../fonts/SF-Pro-Display-Regular.otf");
+        font-family: "SF-Pro";
+        font-style: normal;
+        font-weight: 400;
+        src: url("/styles/fonts/SF-Pro-Display-Regular.otf");
+}
+
+@font-face {
+        font-family: "SF-Pro";
+        font-style: italic;
+        font-weight: 400;
+        src: url("/styles/fonts/SF-Pro-Display-RegularItalic.otf");
+}
+
+@font-face {
+        font-family: "SF-Pro";
+        font-style: normal;
+        font-weight: 500;
+        src: url("/styles/fonts/SF-Pro-Display-Medium.otf");
+}
+
+@font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        src: url("/styles/fonts/SF-Pro-Display-Bold.otf");
 }
 
 .text-upper {
